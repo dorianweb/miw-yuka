@@ -88,7 +88,7 @@
             product_name: 'cristaline eau de source',
             brand: 'cristaline',
             note: 5,
-            img: [],
+            img: ['https://m-naturellement.com/98-large_default/eau-cristalline-50cl.jpg'],
             composition: [
               {
                 name: 'eau',
@@ -155,9 +155,10 @@
     font-size: 1.2em;
     font-weight: bold;
     color: #65c963;
-    text-decoration:none;
+    text-decoration: none;
   }
-  .product_name:hover{
+
+  .product_name:hover {
 
     font-size: 1.4em;
     cursor: pointer;
